@@ -1,0 +1,22 @@
+.hero {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e0f7ff;
+  background: radial-gradient(circle at top, #001f3f, #000);
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.btnGlow {
+  border: 1px solid #00ffff;
+  color: #00ffff;
+  transition: 0.3s;
+}
+
+.btnGlow:hover {
+  background-color: #00ffff;
+  color: #000;
+  box-shadow: 0 0 20px #00ffff;
+}
